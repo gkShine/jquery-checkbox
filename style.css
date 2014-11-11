@@ -1,0 +1,33 @@
+@charset "utf-8";
+.jq_checkbox {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("images/checkbox.png") no-repeat -16px 0px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.jq_checkbox:hover,
+.jq_checkbox_hover {
+    background-position: -32px 0;
+}
+
+.jq_checkbox:active,
+.jq_checkbox_active,
+.jq_checkbox_active:hover {
+    background-position: -48px 0;
+}
+
+.jq_checkbox_half,
+.jq_checkbox_half:hover {
+    background-position: -64px 0;
+}
+
+.jq_checkbox[disabled],
+.jq_checkbox_disabled,
+.jq_checkbox_disabled:hover,
+.jq_checkbox_disabled:active {
+    cursor: default;
+    background-position: 0 0;
+}
